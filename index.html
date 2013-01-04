@@ -1,0 +1,20 @@
+---
+layout: default
+title: Tom Brown
+---
+
+<nav class="nav">
+  <a class="home" href="/" title="Home"></a>
+</nav>
+
+<section class="main" role="main">
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li>
+        <article>
+          <span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
+        </article>
+      </li>
+    {% endfor %}
+  </ul>
+</section>

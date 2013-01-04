@@ -1,0 +1,11 @@
+url: http://nottombrown.github.com
+title: nottombrown
+description: Tom Brown's Blog
+
+permalink: /:title/
+
+future: false
+auto: true
+server: true
+
+exclude: ["README.md", "config.rb"]
