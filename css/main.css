@@ -1,3 +1,45 @@
-nav .portrait {
-  height: 140px;
-  width: 140px; }
+body {
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif; }
+
+h1, h2, h2, h4 {
+  font-family: "Adelle", "Lucida Grande", serif; }
+
+.sidebar {
+  height: 100%;
+  position: relative;
+  width: 30%;
+  display: inline-block;
+  float: left;
+  padding-left: 50px;
+  padding-right: 50px; }
+  .sidebar .bio-wrap {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 50%;
+    text-align: center; }
+    .sidebar .bio-wrap .bio {
+      position: relative;
+      top: 100px; }
+      .sidebar .bio-wrap .bio .portrait {
+        border-radius: 150px;
+        overflow: hidden;
+        display: inline-block;
+        height: 300px;
+        width: 300px; }
+        .sidebar .bio-wrap .bio .portrait img {
+          height: 300px;
+          width: 300px; }
+    .sidebar .bio-wrap .bio-text {
+      position: absolute;
+      width: 100%;
+      top: 320px; }
+      .sidebar .bio-wrap .bio-text .bio-name {
+        font-size: 30px; }
+
+.content {
+  width: 50%;
+  display: inline-block;
+  float: right;
+  padding-left: 50px;
+  padding-right: 50px; }

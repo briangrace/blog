@@ -1,7 +1,58 @@
+@mixin adelle
+  font-family: "Adelle", "Lucida Grande", serif
+
+@mixin proxima
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif
+
+body
+  +proxima
+
+h1, h2, h2, h4
+  +adelle
+
+$section-padding: 50px
+.sidebar
+  height: 100%
+  position: relative
+  width: 30%
+  // min-width: 300px
+  display: inline-block
+  float: left
+  padding-left: $section-padding
+  padding-right: $section-padding
 
 
-nav
-  .portrait
-    $height: 140px
-    height: $height
-    width: $height
+  .bio-wrap
+    $portrait-height: 300px
+    position: absolute
+    width: 100%
+    left: 0
+    top: 50%
+    text-align: center
+    .bio
+      position: relative
+      top: 100px
+      .portrait
+        border-radius: $portrait-height/2
+        overflow: hidden
+        display: inline-block
+        height: $portrait-height
+        width: $portrait-height
+        img
+          height: $portrait-height
+          width: $portrait-height
+
+    .bio-text
+      position: absolute
+      width: 100%
+      top: $portrait-height + 20px
+      .bio-name
+        font-size: 30px
+
+.content
+  width: 50%
+  display: inline-block
+  float: right
+
+  padding-left: $section-padding
+  padding-right: $section-padding
