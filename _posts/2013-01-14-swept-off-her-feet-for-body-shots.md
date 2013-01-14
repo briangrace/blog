@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Why I Wear The Same Shirt Every Day
-day: October 8, 2012
+title: Swept off her feet... for body shots?
+day: January 14, 2013
 place: New York, NY
 ---
 

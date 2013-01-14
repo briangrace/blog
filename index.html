@@ -1,8 +1,108 @@
 ---
 layout: default
-title: Tom Brown
+title: Grouper Blog
 ---
 
+<div class="new-sidebar">
+  <div class="sidebar-content">
+    <div class="logo-con">
+      <a class="logo" href="https://www.joingrouper.com/?ref=blog">
+        <img src="http://grouper-reef.s3.amazonaws.com/images/landing/logo.png" height=60/>
+      </a>
+    </div>
+    <div class="description">
+      We're a social club that sets up drinks between 2 groups of friends: 3 guys and 3 girls. 
+    </div>
+    <div class="signup">
+      <a class="apply" href="https://www.joingrouper.com">Apply for Membership</a>
+    </div>
+
+    <div class="groupergrams">
+      <div class="groupergrams-header">
+        Was your Thursday this fun?
+      </div>
+      <a href="https://www.joingrouper.com">
+        <div class="gg-container right">
+          <div class="gg-mask">
+          <div class="gg-inner">
+            <img class="small-gg" height=110 width=110 src="https://groupergram-photos.s3.amazonaws.com/325786388632658915_6401751"
+
+
+/></a>
+          </div>
+          </div>
+        </div>
+
+      <a href="https://www.joingrouper.com">
+        <div class="gg-container">
+          <div class="gg-mask">
+          <div class="gg-inner">
+            <img class="small-gg" height=110 width=110 src="https://groupergram-photos.s3.amazonaws.com/341977050371953159_14129195"
+
+
+/></a>
+          </div>
+          </div>
+        </div>
+
+      <a href="https://www.joingrouper.com">
+        <div class="gg-container right">
+          <div class="gg-mask">
+          <div class="gg-inner">
+            <img class="small-gg" height=110 width=110 src="https://groupergram-photos.s3.amazonaws.com/340934816516248003_24375227"
+
+
+/></a>
+          </div>
+          </div>
+        </div>
+
+      <a href="https://www.joingrouper.com">
+        <div class="gg-container">
+          <div class="gg-mask">
+          <div class="gg-inner">
+            <img class="small-gg" height=110 width=110 src="https://groupergram-photos.s3.amazonaws.com/339459346939968894_30275702"
+
+
+/></a>
+          </div>
+          </div>
+        </div>
+
+      <div class="made">
+        <div class="hiring-con">
+          Makers: join us for a
+          <a class="hiring-link" href="https://www.joingrouper.com/hackation"> Hack-ation</a>.
+        </div>
+        <div class="hiring-con">
+          Also, 
+          <a class="hiring-link" href="https://www.joingrouper.com/jobs">we're hiring</a>.
+        </div>
+        Made in downtown New York.
+      </div>
+
+
+    </div>
+  </div>
+</div>
+
+
+<div class="content-container"
+  <section class="content">
+
+    {% for post in site.posts %}
+      <div class="index-title-con">
+        <a class="index-title" href="{{post.url}}">
+          {{ post.title }}
+        </a>
+      </div>
+    {% endfor %}
+  </section>
+</div>
+
+
+
+<!---
 <nav class="nav">
   <a class="home" href="/" title="Home"></a>
 </nav>
@@ -18,3 +118,4 @@ title: Tom Brown
     {% endfor %}
   </ul>
 </section>
+-->
