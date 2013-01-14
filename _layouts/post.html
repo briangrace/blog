@@ -93,6 +93,17 @@ layout: default
 
     <div id="post">
       {{ content }}
+
+      <footer class="post-footer">
+        {% if page.hn_link %}
+          Something to add? Let's talk on
+          <a href='{{ page.hn_link }}'>Hacker News</a>.
+        {% endif %}
+        Follow us on Twitter <a href='http://twitter.com/grouper'>@grouper</a>.
+        <br/>
+        Or, better yet, <a href='https://www.joingrouper.com/'>go on a Grouper</a>.
+      </footer>
+
     </div>
 
   </section>
