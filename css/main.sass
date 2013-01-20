@@ -35,16 +35,19 @@ $light-red: #CA443F
 $red: #A23532
 $dark-red: #851E1B
 
+$border-color: darken(#E9EDD7, 8%)
 @mixin adelle
   font-family: "Adelle", "Lucida Grande", serif
 
 @mixin proxima
   font-family: "proxima-nova", Helvetica, Arial, sans-serif
 
+$dark-cream: #A0A48B
 body
   +adelle
   background-color: $cream
-  color: $dark-blue
+  color: $dark-cream
+  font-size: 24px
 
   a
     color: $blue
@@ -54,16 +57,18 @@ body
     &:visited
       color: $blue
 
-h1, h2, h2, h4
+h2, h2, h4
   +proxima
   font-weight: 700
-  letter-spacing: 0.085em
   text-transform: uppercase
 
 h1
-  font-size: 28px
+  font-size: 32px
   margin-top: 12px
-  color: $dark-orange
+  color: $orange
+  +adelle
+  text-transform: none
+  font-weight: 500
   //+adelle
   //font-weight: 100
   //color: $dark-green
@@ -75,10 +80,14 @@ h1
 .index-title-con
   margin-bottom: 30px
 
+.post-content
+  padding-left: 20px
+
 #post
   p
-    font-size: 16px
-    line-height: 22px
+    font-size: 22px
+    line-height: 30px
+    font-weight: 300
     //a
       font-style: italic 
       font-weight: 500
@@ -87,19 +96,35 @@ h1
         color: $orange
       &:visited
         color: $dark-orange
+
+.post-header, .post-footer
+  position: relative
+  left: -7px
+  padding-left: 20px
+  padding-right: 20px
+
 .post-footer
   padding-top: 10px
   margin-top: 30px
-  border-top: 2px solid #DBE0C7
+  border-top: 1px solid $border-color
   font-style: italic
   display: block
-  color: $dark-green
+  font-weight: 300
+  font-size: 18px
+  padding-left: 30px
+
+.post-header
+  border-bottom: 1px solid $border-color
+
 
 .post-date
   font-style: italic
   margin-bottom: -12px
   text-align: center
-  color: darken($dark-cream, 7%)
+  font-size: 14px
+  text-align: right
+  padding-right: 10px
+  color: $dark-cream
 
 
 .post-signature
@@ -119,27 +144,41 @@ h1
 .clear
   clear: both
 
-$sidebar-width: 300px
+$sidebar-width: 375px
 .new-sidebar
   width: $sidebar-width
-  border-right: 1px solid $dark-cream
+  border-right: 1px solid $border-color
   height: 100%
   min-height: 100%
   position: fixed
   left: 0
   top: 0
+  padding-right: 0
+  margin-right: 0
   .logo-con
     text-align: center
     margin-top: 20px
     .logo:hover
       opacity: 0.5
+  .signup
+    text-align: center
+    padding: 18px 0
   a.apply
-    color: $blue
     text-decoration: none
+    background-color: $dark-blue
+    color: $cream
+    +proxima
+    border-radius: 2px
+    //transition(0.2s all ease-out)
+    text-transform: uppercase
+    font-size: 16px
+    font-weight: 700
+    padding: 12px 20px
+    letter-spacing: 0.1em
     &:visited
-      color: $blue
+      color: $cream
     &:hover
-      color: $dark-blue
+      color: $blue
 
   a.hiring-link
     color: $orange
@@ -149,7 +188,7 @@ $sidebar-width: 300px
       color: $dark-orange
       color: $dark-blue
   .made
-    border-top: 1px solid lighten($dark-cream, 7%)
+    border-top: 1px solid $border-color
     margin-top: 10px
     padding-top: 20px
     color: darken($dark-cream, 7%)
@@ -157,21 +196,27 @@ $sidebar-width: 300px
   .groupergrams
     margin-top: 20px
     padding-top: 10px
-    border-top: 1px solid lighten($dark-cream, 7%)
+    margin-left: 6px
+    //border-top: 1px solid lighten($dark-cream, 7%)
     .groupergrams-header
       color: darken($dark-cream, 7%)
       font-style: italic
+  .hiring-con
+    text-align: center
+    margin-top: 20px
   .gg-container
-    height: 120px
-    width: 120px
+    $img-size: 135px
+    width: $img-size + 16px
+    height: $img-size + 16px
     display: inline-block
     position: relative
-    background-color: $dark-cream
+    background-color: #C0C4AF
     border-radius: 4px
     margin-top: 16px
+    text-align: center
     &:hover
       .gg-mask
-        opacity: 1.0
+        opacity: 0.4
     &.right 
       margin-right: 16px
     .gg-mask
@@ -180,15 +225,15 @@ $sidebar-width: 300px
       top: 0
       width: 100%
       height: 100%
-      opacity: 0.4
-      background-color: $dark-cream
+      background-color: #C0C4AF
+      border-radius: 4px
       z-index: 10
     img.small-gg
-      height: 110px
-      width: 110px
+      height: $img-size
+      width: $img-size
       position: absolute
-      left: 5px
-      top: 5px
+      left: 8px
+      top: 8px
       z-index: 1
       background-color: $dark-cream
 
@@ -197,11 +242,12 @@ $sidebar-width: 300px
     text-align: left
   .description
     margin: 0 auto
-    color: $dark-cream
-    font-style: italic
     margin-bottom: 20px
-    color: $dark-green
+    color: $blue
     margin-top: 20px
+    text-align: center
+    font-size: 16px
+
 
 $section-padding: 50px
 .sidebar
@@ -244,10 +290,10 @@ $section-padding: 50px
 
 .content-container
   width: 650px
-  margin-left: $sidebar-width + 20px
+  margin-left: $sidebar-width
   height: 100%
   min-height: 100%
-  margin-top: 80px
+  margin-top: 40px
 .content
   // margin-top: 20px
   // width: 50%
