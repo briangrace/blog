@@ -16,6 +16,9 @@ h2, h2, h4 {
   font-weight: 700;
   text-transform: uppercase; }
 
+h2 {
+  font-size: 26px; }
+
 h1 {
   font-size: 32px;
   margin-top: 12px;
@@ -33,10 +36,12 @@ h1 {
 .post-content {
   padding-left: 20px; }
 
-#post p {
+#post p, .post p {
   font-size: 22px;
   line-height: 30px;
   font-weight: 300; }
+#post a.index-title:hover, #post a.index-title:visited, #post a.index-title h1:hover, #post a.index-title h1:visited, .post a.index-title:hover, .post a.index-title:visited, .post a.index-title h1:hover, .post a.index-title h1:visited {
+  color: #b8471b; }
 
 .post-header, .post-footer {
   position: relative;
@@ -52,19 +57,37 @@ h1 {
   display: block;
   font-weight: 300;
   font-size: 18px;
-  padding-left: 30px; }
+  padding-left: 27px;
+  padding-bottom: 60px; }
 
 .post-header {
   border-bottom: 1px solid #dae0bb; }
 
+.post.landing .post-header {
+  border: 0;
+  padding-left: 27px; }
+
+.bottom-spacer {
+  border-bottom: 1px solid #dae0bb;
+  position: relative;
+  left: -7px;
+  width: 100%;
+  height: 1px;
+  margin-top: 50px;
+  margin-bottom: 20px; }
+
 .post-date {
-  font-style: italic;
   margin-bottom: -12px;
   text-align: center;
   font-size: 14px;
-  text-align: right;
+  text-align: left;
   padding-right: 10px;
-  color: #a0a48b; }
+  color: #a0a48b;
+  padding-left: 20px;
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.85em;
+  text-transform: uppercase; }
 
 .post-signature {
   display: block;
