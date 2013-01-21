@@ -81,15 +81,32 @@ title: Grouper Blog
   <section class="content">
 
     {% for post in site.posts %}
-      <div class="index-title-con">
+
+      <div class="post landing">
+      <div class="post-header">
         <a class="index-title" href="{{post.url}}">
-          {{ post.title }}
+          <h1>{{ post.title }}</h1>
         </a>
       </div>
+
+      <div class="post-content">
+        {{ post.content }}
+      </div>
+
+<!--       <div class="post-date">
+        {{ post.day }} · {{ post.place }}
+      </div> -->
+      <div class="bottom-spacer"></div>
+    </div>
     {% endfor %}
   </section>
 </div>
 
+<!--       <div class="index-title-con">
+        <a class="index-title" href="{{post.url}}">
+          {{ post.title }}
+        </a>
+      </div> -->
 
 
 <!---
