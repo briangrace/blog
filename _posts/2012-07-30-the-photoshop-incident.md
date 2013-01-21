@@ -5,7 +5,7 @@ day: July 30, 2012
 place: New York, NY
 image_url: http://assets.grouper.s3.amazonaws.com/jobs/photos.png
 ---
-<div style="text-align: center; padding-top: 20px;"><img src="http://assets.grouper.s3.amazonaws.com/jobs/photos.png" height='140' /></div>
+<div class="wide-image" style="text-align: center; padding-top: 20px; width: 100%; overflow: hidden;"><img src="http://assets.grouper.s3.amazonaws.com/jobs/photos.png" height='140' /></div>
 
 
 We hear some pretty crazy stories here at Grouper. In fact, that's what we're all about. Grouper sets up drinks between 2 groups of friends: 3 guys and 3 girls (or 3 guys and 3 guys, etc.). We think social software should actually be, well, social, which to us means bringing together people offline, not browsing through photos alone in your underwear :) Offline social networks are a lot more interesting than online ones...
