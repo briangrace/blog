@@ -175,6 +175,7 @@ h1
   clear: both
 
 $sidebar-width: 375px
+
 .new-sidebar
   width: $sidebar-width
   border-right: 1px solid $border-color
@@ -281,7 +282,7 @@ $sidebar-width: 375px
 @media screen and ( max-width: 600px )
   .new-sidebar
     display: block
-    height: 280px
+    height: 250px
     width: 100%
     display: relative
     position: relative
@@ -345,6 +346,7 @@ $section-padding: 50px
     height: 100%
     margin-left: 0
     padding: 0
+    margin-top: 20px
 .content
   // margin-top: 20px
   // width: 50%
@@ -353,3 +355,18 @@ $section-padding: 50px
 
   padding-left: $section-padding
   padding-right: $section-padding
+
+@media screen and ( max-width: 600px )
+
+  .new-sidebar
+    .description
+      margin-bottom: 0px
+    .signup
+      padding-bottom: 0
+    .logo-con 
+      margin-top: 0
+    a.apply
+      position: relative
+      margin-top: -12px
+      font-size: 12px
+      padding: 10px 16px

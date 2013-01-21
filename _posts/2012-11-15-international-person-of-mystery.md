@@ -8,7 +8,7 @@ image_url: http://grouper-reef.s3.amazonaws.com/images/blog/swiss.png
 
 <div style="text-align: center; padding-top: 20px;"><img src="http://grouper-reef.s3.amazonaws.com/images/blog/swiss.png" height='100' /></div>
 
-Grouper is looking to hire an [International Man of Mystery](https://www.joingrouper.com/mystery). 
+Grouper is looking to hire an [International Person of Mystery](https://www.joingrouper.com/mystery). 
 
 This person needs to be fluent in 3 languages, to know the best bars in 5 countries, and to be relentlessly resourceful. Not to mention they must be a university graduate, a Mac user at home, extremely social, highly interesting, and a natural-born leader--with leadership experience, as well. 
 
