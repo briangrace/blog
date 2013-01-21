@@ -63,6 +63,10 @@ h1 {
 .post-header {
   border-bottom: 1px solid #dae0bb; }
 
+@media screen and (max-width: 600px) {
+  .post-header {
+    border: none;
+    text-align: center; } }
 .post.landing .post-header {
   border: 0;
   padding-left: 27px; }
