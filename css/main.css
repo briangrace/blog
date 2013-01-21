@@ -200,6 +200,20 @@ h1 {
     text-align: center;
     font-size: 16px; }
 
+@media screen and (max-width: 600px) {
+  .new-sidebar {
+    display: block;
+    height: 280px;
+    width: 100%;
+    display: relative;
+    position: relative;
+    border: 0;
+    border-bottom: 1px solid #dae0bb; }
+    .new-sidebar .hiring-con, .new-sidebar .groupergrams {
+      display: none; }
+
+  .top-bar {
+    display: block; } }
 .sidebar {
   height: 100%;
   position: relative;
@@ -239,6 +253,12 @@ h1 {
   min-height: 100%;
   margin-top: 40px; }
 
+@media screen and (max-width: 600px) {
+  .content-container {
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+    padding: 0; } }
 .content {
   padding-left: 50px;
   padding-right: 50px; }

@@ -3,6 +3,7 @@ layout: post
 title: Intro to Social Hacking - how we lowered our cancellation rate by 90%
 day: March 12, 2012
 place: Mountain View, CA
+image_url: http://grouper-reef.s3.amazonaws.com/images/blog/decrease.png
 ---
 
 <div style="text-align: center; padding-top: 20px;"><img src="http://grouper-reef.s3.amazonaws.com/images/blog/decrease.png" height='100' /></div>

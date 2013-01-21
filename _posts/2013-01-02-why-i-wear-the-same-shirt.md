@@ -3,6 +3,7 @@ layout: post
 title: Why I Wear The Same Shirt Every Day
 day: October 8, 2012
 place: New York, NY
+image_url: http://grouper-reef.s3.amazonaws.com/images/blog/shirt.png
 ---
 
 <div style="text-align: center; padding-top: 20px;"><img src="http://grouper-reef.s3.amazonaws.com/images/blog/shirt.png" height='140' /></div>

@@ -3,6 +3,7 @@ layout: post
 title: The Photoshop Incident
 day: July 30, 2012
 place: New York, NY
+image_url: http://assets.grouper.s3.amazonaws.com/jobs/photos.png
 ---
 <div style="text-align: center; padding-top: 20px;"><img src="http://assets.grouper.s3.amazonaws.com/jobs/photos.png" height='140' /></div>
 

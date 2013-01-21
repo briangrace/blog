@@ -4,6 +4,7 @@ title: Sex in the Bathroom and the Problem of Offline Data
 day: April 17, 2012
 place: New York, NY
 hn: 3864510
+image_url: http://grouper-reef.s3.amazonaws.com/images/blog/beerbottle.png
 ---
 
 <div style="text-align: center; padding-top: 20px;"><img src="http://grouper-reef.s3.amazonaws.com/images/blog/beerbottle.png" height='140' /></div>
