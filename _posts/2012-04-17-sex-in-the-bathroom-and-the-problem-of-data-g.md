@@ -3,16 +3,11 @@ layout: post
 title: Sex in the Bathroom and the Problem of Offline Data
 day: April 17, 2012
 place: New York, NY
+hn: 3864510
 ---
 
-<date class="post-date">
-  {{ page.day }} · {{ page.place }}
-</date>
+<div style="text-align: center; padding-top: 20px;"><img src="http://grouper-reef.s3.amazonaws.com/images/blog/beerbottle.png" height='140' /></div>
 
-![{{ page.title }}](../images/sex_in_the_bathroom.jpg)
-
-{{ page.title }}
-================
 
 We love data. But when you run an online/offline startup gathering data can be a challenge.
 

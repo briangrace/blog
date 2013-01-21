@@ -5,6 +5,8 @@ day: October 8, 2012
 place: New York, NY
 ---
 
+<div style="text-align: center; padding-top: 20px;"><img src="http://grouper-reef.s3.amazonaws.com/images/blog/shirt.png" height='140' /></div>
+
 I rep a Grouper t-shirt every, single day. (Fortunately, I have a few).
 
 There are two reasons why I do this:
@@ -16,3 +18,6 @@ The first reason I stole from Steve Jobs. His iconic outfit is often misundersto
 The second reason was inspired by Larry and Sergey. An early [Google](http://google.com) investor told me that they wore their Google t-shirts every day in the early years. "Free advertising," they explained.
 
 Startups are hard. Every little bit helps.
+
+\- Michael   
+_Founder & CEO_
